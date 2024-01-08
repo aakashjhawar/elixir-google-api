@@ -40,7 +40,7 @@ defmodule GoogleApi.PubSub.Mixfile do
 
   defp deps() do
     [
-      {:google_gax, "~> 0.4"},
+      {:google_gax, "~> 0.4.1"},
 
       {:ex_doc, "~> 0.16", only: :dev}
     ]
